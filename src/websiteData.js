@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 03:09:22
+// 网站数据 - 通过管理后台更新于 2026/2/1 03:11:18
 
 // 站点配置
 export const siteConfig = {
@@ -118,7 +118,7 @@ export const websiteData = [
     "url": "https://www.acebgp.com/aff.php?aff=103",
     "category": "category_1769885643033",
     "tags": [],
-    "icon": "/assets/logo.png"
+    "icon": "https://icon.nbvil.com/favicon?url=www.acebgp.com"
   },
   {
     "id": 1769886280637,
@@ -127,7 +127,7 @@ export const websiteData = [
     "url": "https://my.zorocloud.com/aff.php?aff=356",
     "category": "category_1769885643033",
     "tags": [],
-    "icon": "/assets/logo.png"
+    "icon": "https://icon.nbvil.com/favicon?url=my.zorocloud.com"
   },
   {
     "id": 1769886305582,

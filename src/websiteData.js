@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 02:57:36
+// 网站数据 - 通过管理后台更新于 2026/2/1 02:59:46
 
 // 站点配置
 export const siteConfig = {
@@ -47,6 +47,51 @@ export const websiteData = [
     "category": "category_1769885618545",
     "tags": [],
     "icon": "https://icon.nbvil.com/favicon?url=www.miyaip.com"
+  },
+  {
+    "id": 1769885892021,
+    "name": "Onesproxy",
+    "description": "",
+    "url": "https://app.onesproxy.com/api/channel_agent/track?user_source=1&invite_code=VYL13427",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=app.onesproxy.com"
+  },
+  {
+    "id": 1769885907699,
+    "name": "IPdodo",
+    "description": "",
+    "url": "https://www.ipdodo.com/account/register?invite_code=9KC0MS45",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.ipdodo.com"
+  },
+  {
+    "id": 1769885928708,
+    "name": "ATT美国纯住宅ip",
+    "description": "",
+    "url": "https://www.vircs.com/welcome?vcd=1d272e68",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769885968073,
+    "name": "美国proxy",
+    "description": "",
+    "url": "https://www.proxystore.net/?ref=27898",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.proxystore.net"
+  },
+  {
+    "id": 1769885984039,
+    "name": "blurpathproxy",
+    "description": "",
+    "url": "blurpathproxy",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "/assets/logo.png"
   }
 ];
 

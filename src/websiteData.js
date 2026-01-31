@@ -1,37 +1,32 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 02:50:04
+// 网站数据 - 通过管理后台更新于 2026/2/1 02:54:57
 
 // 站点配置
 export const siteConfig = {
-  "siteName": "BinNav",
-  "siteTitle": "BinNav - 导航",
+  "siteName": "软件网",
+  "siteTitle": "不懂请找UP主",
   "siteLogo": "/assets/logo.png",
-  "siteDescription": "二进制导航页面，精选优质站点",
+  "siteDescription": "推荐独享socks5住宅IP、住宅vps",
   "icpRecord": "",
   "publicSecurityRecord": "",
   "publicSecurityRecordUrl": ""
 };
 
-export const websiteData = [
-  {
-    "id": 1751807882512,
-    "name": "个人站点",
-    "description": "作者个人站点展示",
-    "url": "https://i.bincore.cn/",
-    "category": "author",
-    "tags": [
-      "个人站点"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=i.bincore.cn"
-  }
-];
+export const websiteData = [];
 
 // 分类定义 - 支持二级分类
 export const categories = [
   {
-    "id": "author",
-    "name": "作者专栏",
-    "icon": "/assets/tech_blogger_avatar.png",
-    "special": true,
+    "id": "category_1769885618545",
+    "name": "socks5独享住宅ip",
+    "icon": "/assets/tools_icon.png",
+    "special": false,
+    "subcategories": []
+  },
+  {
+    "id": "category_1769885643033",
+    "name": "独享住宅vps推荐",
+    "icon": "/assets/Browser-Code.png",
+    "special": false,
     "subcategories": []
   }
 ];

@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 02:59:46
+// 网站数据 - 通过管理后台更新于 2026/2/1 03:06:10
 
 // 站点配置
 export const siteConfig = {
@@ -92,6 +92,78 @@ export const websiteData = [
     "category": "category_1769885618545",
     "tags": [],
     "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769886107176,
+    "name": "推荐综合vps多",
+    "description": "月优惠码：WePCMON90   年优惠码：WePCYEAR80",
+    "url": "https://wepc.au/aff.php?aff=810",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=wepc.au"
+  },
+  {
+    "id": 1769886215411,
+    "name": "丽萨",
+    "description": "9折优惠码 TS-CBP205DQJE",
+    "url": "https://lisahost.com/aff.php?aff=2915",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=lisahost.com"
+  },
+  {
+    "id": 1769886244693,
+    "name": "便宜的美国vps",
+    "description": "",
+    "url": "https://www.acebgp.com/aff.php?aff=103",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769886280637,
+    "name": "ZOROcloud",
+    "description": "优惠码：ZORO",
+    "url": "https://my.zorocloud.com/aff.php?aff=356",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769886305582,
+    "name": "阴雲",
+    "description": "",
+    "url": "https://www.yin-net.com/aff.php?aff=558",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.yin-net.com"
+  },
+  {
+    "id": 1769886327083,
+    "name": "EVOXT",
+    "description": "",
+    "url": "https://console.evoxt.com/aff.php?aff=200",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=console.evoxt.com"
+  },
+  {
+    "id": 1769886344869,
+    "name": "六六六云",
+    "description": "",
+    "url": "https://666clouds.com/aff.php?aff=2459",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=666clouds.com"
+  },
+  {
+    "id": 1769886366612,
+    "name": "CIUIC",
+    "description": "",
+    "url": "https://cloud.ciuic.com/aff/AAOLRAJU",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=cloud.ciuic.com"
   }
 ];
 

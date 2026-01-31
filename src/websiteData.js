@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 02:48:58
+// 网站数据 - 通过管理后台更新于 2026/2/1 02:49:24
 
 // 站点配置
 export const siteConfig = {
@@ -266,49 +266,6 @@ export const categories = [
     "name": "作者专栏",
     "icon": "/assets/tech_blogger_avatar.png",
     "special": true,
-    "subcategories": []
-  },
-  {
-    "id": "recommended",
-    "name": "常用推荐",
-    "icon": "/assets/star.png",
-    "special": false,
-    "subcategories": []
-  },
-  {
-    "id": "category_1751807929795",
-    "name": "AI平台",
-    "icon": "/assets/ai.png",
-    "special": false,
-    "subcategories": [
-      {
-        "id": "category_1751811714830",
-        "name": "AI Chat",
-        "icon": "/assets/Chat-2--Streamline-Kameleon__1_.png",
-        "special": false,
-        "subcategories": []
-      },
-      {
-        "id": "category_1751811752885",
-        "name": "AI Code",
-        "icon": "/assets/Browser-Code.png",
-        "special": false,
-        "subcategories": []
-      }
-    ]
-  },
-  {
-    "id": "dev_tools",
-    "name": "开发工具",
-    "icon": "/assets/Xcode--Streamline-Svg-Logos.png",
-    "special": false,
-    "subcategories": []
-  },
-  {
-    "id": "friend_links",
-    "name": "友情链接",
-    "icon": "/assets/link.png",
-    "special": false,
     "subcategories": []
   }
 ];

@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 03:06:10
+// 网站数据 - 通过管理后台更新于 2026/2/1 03:09:22
 
 // 站点配置
 export const siteConfig = {
@@ -164,6 +164,60 @@ export const websiteData = [
     "category": "category_1769885643033",
     "tags": [],
     "icon": "https://icon.nbvil.com/favicon?url=cloud.ciuic.com"
+  },
+  {
+    "id": 1769886391932,
+    "name": "美国ATT纯住宅vps",
+    "description": "",
+    "url": "https://www.aaitr.com/aff.php?aff=90",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.aaitr.com"
+  },
+  {
+    "id": 1769886407961,
+    "name": "ATT纯住宅美国vps",
+    "description": "",
+    "url": "https://www.vircs.com/welcome?vcd=1d272e68",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769886432453,
+    "name": "Ipraft",
+    "description": "",
+    "url": "https://ipraft.com/?i78020e",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=ipraft.com"
+  },
+  {
+    "id": 1769886469142,
+    "name": "新区vps",
+    "description": "",
+    "url": "https://www.xinquyun.com/aff/WNZLIBFW",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.xinquyun.com"
+  },
+  {
+    "id": 1769886532498,
+    "name": "台湾住宅vps",
+    "description": "",
+    "url": "https://cloud.sudatech.store/aff.php?aff=104",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=cloud.sudatech.store"
+  },
+  {
+    "id": 1769886557919,
+    "name": "台湾vps",
+    "description": "",
+    "url": "https://zlidc.net/aff.php?aff=970",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=zlidc.net"
   }
 ];
 

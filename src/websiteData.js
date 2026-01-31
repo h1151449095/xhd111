@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 02:55:05
+// 网站数据 - 通过管理后台更新于 2026/2/1 02:57:36
 
 // 站点配置
 export const siteConfig = {
@@ -11,7 +11,44 @@ export const siteConfig = {
   "publicSecurityRecordUrl": ""
 };
 
-export const websiteData = [];
+export const websiteData = [
+  {
+    "id": 1769885785487,
+    "name": "全球代理proxy",
+    "description": "",
+    "url": "https://www.quanqiudaili.com/?ref=xNMDkn2845",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.quanqiudaili.com"
+  },
+  {
+    "id": 1769885804490,
+    "name": "985proxy",
+    "description": "",
+    "url": "https://www.985proxy.com/#/?invite=R9TGMB",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.985proxy.com"
+  },
+  {
+    "id": 1769885826455,
+    "name": "cliproxy",
+    "description": "",
+    "url": "https://share.cliproxy.com/share/ecrlzbv4b",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=cliproxy.com"
+  },
+  {
+    "id": 1769885851000,
+    "name": "MIYAproxy不用中转",
+    "description": "不需要中转的住宅ip，8折扣码:newuser80",
+    "url": "https://www.miyaip.com/signup?invitecode=3654742",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.miyaip.com"
+  }
+];
 
 // 分类定义 - 支持二级分类
 export const categories = [

@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 10:34:49
+// 网站数据 - 通过管理后台更新于 2026/2/1 10:37:28
 
 // 站点配置
 export const siteConfig = {
@@ -290,6 +290,60 @@ export const websiteData = [
     "category": "category_1769912685301",
     "tags": [],
     "icon": "https://icon.nbvil.com/favicon?url=www.bitbrowser.cn"
+  },
+  {
+    "id": 1769913315659,
+    "name": "V2rayN-Win版本",
+    "description": "",
+    "url": "https://github.com/2dust/v2rayn/releases",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=github.com"
+  },
+  {
+    "id": 1769913332021,
+    "name": "V2rayU-Mac版本",
+    "description": "",
+    "url": "https://github.com/yanue/V2rayU/releases",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=github.com"
+  },
+  {
+    "id": 1769913346401,
+    "name": "V2rayNG-安卓版本",
+    "description": "",
+    "url": "https://github.com/2dust/v2rayng/releases",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=github.com"
+  },
+  {
+    "id": 1769913373141,
+    "name": "ssh工具-win版本",
+    "description": "",
+    "url": "https://dl.hostbuf.com/finalshell3/finalshell_windows_x64.exe",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769913390149,
+    "name": "ssh工具-Mac版本",
+    "description": "",
+    "url": "https://dl.hostbuf.com/finalshell3/finalshell_macos_arm64.pkg",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=dl.hostbuf.com"
+  },
+  {
+    "id": 1769913445197,
+    "name": "UU远程",
+    "description": "",
+    "url": "https://uuyc.163.com/",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=uuyc.163.com"
   }
 ];
 

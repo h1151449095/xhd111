@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 10:24:46
+// 网站数据 - 通过管理后台更新于 2026/2/1 10:34:49
 
 // 站点配置
 export const siteConfig = {
@@ -272,6 +272,24 @@ export const websiteData = [
     "category": "category_1769912444386",
     "tags": [],
     "icon": "https://icon.nbvil.com/favicon?url=my.niihost.com"
+  },
+  {
+    "id": 1769912745862,
+    "name": "hubstudio指纹浏览器",
+    "description": "",
+    "url": "http://suo.im/aLOIU",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=suo.im"
+  },
+  {
+    "id": 1769913268723,
+    "name": "比特指纹浏览器",
+    "description": "10个免费窗口",
+    "url": "https://www.bitbrowser.cn/download",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.bitbrowser.cn"
   }
 ];
 

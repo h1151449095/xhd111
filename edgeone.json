@@ -9,7 +9,7 @@
     "ADMIN_PASSWORD": {
       "description": "管理后台登录密码",
       "required": false,
-      "default": "admin"
+      "default": "AAssdd123"
     },
     "GITHUB_TOKEN": {
       "description": "GitHub Personal Access Token，用于自动更新配置文件",

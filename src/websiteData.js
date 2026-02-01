@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 03:11:33
+// 网站数据 - 通过管理后台更新于 2026/2/1 10:20:48
 
 // 站点配置
 export const siteConfig = {
@@ -236,6 +236,13 @@ export const categories = [
     "icon": "/assets/Browser-Code.png",
     "special": false,
     "subcategories": []
+  },
+  {
+    "id": "category_1769912444386",
+    "name": "中转推荐",
+    "icon": "/assets/server_icon.png",
+    "special": false,
+    "subcategories": []
   }
 ];
 
@@ -278,5 +285,5 @@ export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2026-01-31"
+  lastUpdated: "2026-02-01"
 };

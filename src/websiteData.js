@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 10:20:48
+// 网站数据 - 通过管理后台更新于 2026/2/1 10:23:44
 
 // 站点配置
 export const siteConfig = {
@@ -218,6 +218,60 @@ export const websiteData = [
     "category": "category_1769885643033",
     "tags": [],
     "icon": "https://icon.nbvil.com/favicon?url=zlidc.net"
+  },
+  {
+    "id": 1769912472201,
+    "name": "直播稳定中转巨推荐",
+    "description": "",
+    "url": "https://idc333.top/#register/KHKFZADUHI",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=idc333.top"
+  },
+  {
+    "id": 1769912494648,
+    "name": "中转一",
+    "description": "",
+    "url": "https://wepc.au/aff.php?aff=810",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=wepc.au"
+  },
+  {
+    "id": 1769912530323,
+    "name": "中转二",
+    "description": "不建议用不稳定",
+    "url": "https://nnr.moe?aff=14165",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=nnr.moe"
+  },
+  {
+    "id": 1769912556281,
+    "name": "中转三",
+    "description": "不建议用不稳定",
+    "url": "https://gorelay.net/#register/LODQENOOXD",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=gorelay.net"
+  },
+  {
+    "id": 1769912585837,
+    "name": "中转四",
+    "description": "IX规格适合短视频，其他适合直播,不会搭建别买",
+    "url": "https://www.mkcloud.net/aff.php?aff=316",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.mkcloud.net"
+  },
+  {
+    "id": 1769912622126,
+    "name": "中转vps",
+    "description": "不会搭建的别买",
+    "url": "https://my.niihost.com/aff.php?aff=193",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=my.niihost.com"
   }
 ];
 

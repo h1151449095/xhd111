@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 11:13:49
+// 网站数据 - 通过管理后台更新于 2026/2/1 11:22:52
 
 // 站点配置
 export const siteConfig = {
@@ -418,13 +418,13 @@ export const websiteData = [
     "icon": "https://icon.nbvil.com/favicon?url=whoer.net"
   },
   {
-    "id": 1769915628383,
+    "id": 1769915631237,
     "name": "检测IP是否能用",
     "description": "",
     "url": "https://www.itdog.cn/ping",
     "category": "category_1769915499140",
     "tags": [],
-    "icon": "https://icon.nbvil.com/favicon?url=www.itdog.cn"
+    "icon": "https://icon.nbvil.com/favicon?url=itdog.cn"
   }
 ];
 

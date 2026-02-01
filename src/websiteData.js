@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 11:06:01
+// 网站数据 - 通过管理后台更新于 2026/2/1 11:07:35
 
 // 站点配置
 export const siteConfig = {
@@ -344,6 +344,33 @@ export const websiteData = [
     "category": "category_1769912685301",
     "tags": [],
     "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769915206944,
+    "name": "小火箭免费共享ID",
+    "description": "可用用来下载小火箭，只能用于苹果商店下载",
+    "url": "https://idshare001.me/goso.html",
+    "category": "category_1769915160413",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=idshare001.me"
+  },
+  {
+    "id": 1769915236253,
+    "name": "苹果小火箭设置",
+    "description": "",
+    "url": "https://tp.wjnba.eu.org/file/1759610830063_苹果小火箭设置.mp4",
+    "category": "category_1769915160413",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=tp.wjnba.eu.org"
+  },
+  {
+    "id": 1769915252671,
+    "name": "小火箭中转教程",
+    "description": "",
+    "url": "https://tp.wjnba.eu.org/file/1761310387525_手机中转设置.mp4",
+    "category": "category_1769915160413",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=tp.wjnba.eu.org"
   }
 ];
 

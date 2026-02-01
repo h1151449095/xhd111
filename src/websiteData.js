@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 11:07:35
+// 网站数据 - 通过管理后台更新于 2026/2/1 11:11:42
 
 // 站点配置
 export const siteConfig = {
@@ -408,6 +408,13 @@ export const categories = [
     "id": "category_1769915160413",
     "name": "小火箭免费ID账号、小火箭教程",
     "icon": "/assets/innovation_icon.png",
+    "special": false,
+    "subcategories": []
+  },
+  {
+    "id": "category_1769915499140",
+    "name": "IP检测、网络测速",
+    "icon": "/assets/Chat-2--Streamline-Kameleon__1_.png",
     "special": false,
     "subcategories": []
   }

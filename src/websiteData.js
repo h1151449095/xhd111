@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 11:04:17
+// 网站数据 - 通过管理后台更新于 2026/2/1 11:04:55
 
 // 站点配置
 export const siteConfig = {
@@ -352,7 +352,7 @@ export const categories = [
   {
     "id": "category_1769885618545",
     "name": "socks5独享住宅ip",
-    "icon": "/assets/tools_icon.png",
+    "icon": "/assets/Gemini_Generated_Image_3rrfx23rrfx23rrf__1_-transformed.png",
     "special": false,
     "subcategories": []
   },

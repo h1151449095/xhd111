@@ -1,9 +1,9 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 10:37:57
+// 网站数据 - 通过管理后台更新于 2026/2/1 10:38:52
 
 // 站点配置
 export const siteConfig = {
-  "siteName": "软件网",
-  "siteTitle": "不懂请找UP主",
+  "siteName": "软件网-不懂有问题找UP主",
+  "siteTitle": "软件网",
   "siteLogo": "/assets/logo.png",
   "siteDescription": "推荐独享socks5住宅IP、住宅vps",
   "icpRecord": "",

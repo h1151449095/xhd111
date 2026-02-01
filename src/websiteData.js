@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 11:11:42
+// 网站数据 - 通过管理后台更新于 2026/2/1 11:13:49
 
 // 站点配置
 export const siteConfig = {
@@ -371,6 +371,60 @@ export const websiteData = [
     "category": "category_1769915160413",
     "tags": [],
     "icon": "https://icon.nbvil.com/favicon?url=tp.wjnba.eu.org"
+  },
+  {
+    "id": 1769915527024,
+    "name": "ipinfo",
+    "description": "",
+    "url": "https://ipinfo.io/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=ipinfo.io"
+  },
+  {
+    "id": 1769915544765,
+    "name": "ip和纯净度检测",
+    "description": "",
+    "url": "https://www.ipipseek.com/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.ipipseek.com"
+  },
+  {
+    "id": 1769915567689,
+    "name": "ping0",
+    "description": "",
+    "url": "https://ping0.cc/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769915591697,
+    "name": "IP纯净度检测",
+    "description": "",
+    "url": "https://scamalytics.com/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769915607684,
+    "name": "whoer",
+    "description": "",
+    "url": "https://whoer.net/zh",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=whoer.net"
+  },
+  {
+    "id": 1769915628383,
+    "name": "检测IP是否能用",
+    "description": "",
+    "url": "https://www.itdog.cn/ping",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.itdog.cn"
   }
 ];
 

@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 11:04:55
+// 网站数据 - 通过管理后台更新于 2026/2/1 11:06:01
 
 // 站点配置
 export const siteConfig = {
@@ -374,6 +374,13 @@ export const categories = [
     "id": "category_1769912685301",
     "name": "各类工具",
     "icon": "/assets/Xcode--Streamline-Svg-Logos.png",
+    "special": false,
+    "subcategories": []
+  },
+  {
+    "id": "category_1769915160413",
+    "name": "小火箭免费ID账号、小火箭教程",
+    "icon": "/assets/innovation_icon.png",
     "special": false,
     "subcategories": []
   }

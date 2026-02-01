@@ -38,8 +38,8 @@
   },
   "redirects": [
     {
-      "source": "/admin",
-      "destination": "/admin",
+      "source": "/admina",
+      "destination": "/admina",
       "statusCode": 200
     }
   ],

@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "BinNav - 精选网站导航，发现优质网站，提升工作效率",
+  "description": "软件网 - 不懂问up主，推荐住宅ip，住宅vps",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

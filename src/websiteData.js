@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 10:37:28
+// 网站数据 - 通过管理后台更新于 2026/2/1 10:37:57
 
 // 站点配置
 export const siteConfig = {
@@ -337,13 +337,13 @@ export const websiteData = [
     "icon": "https://icon.nbvil.com/favicon?url=dl.hostbuf.com"
   },
   {
-    "id": 1769913445197,
+    "id": 1769913449004,
     "name": "UU远程",
     "description": "",
     "url": "https://uuyc.163.com/",
     "category": "category_1769912685301",
     "tags": [],
-    "icon": "https://icon.nbvil.com/favicon?url=uuyc.163.com"
+    "icon": "/assets/logo.png"
   }
 ];
 

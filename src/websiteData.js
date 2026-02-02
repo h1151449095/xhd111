@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/1 11:30:24
+// 网站数据 - 通过管理后台更新于 2026/2/2 11:06:08
 
 // 站点配置
 export const siteConfig = {
@@ -92,6 +92,15 @@ export const websiteData = [
     "category": "category_1769885618545",
     "tags": [],
     "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1770001566871,
+    "name": "机场网络",
+    "description": "",
+    "url": "https://bk.wjnba.eu.org/",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=bk.wjnba.eu.org"
   },
   {
     "id": 1769886107176,
@@ -513,5 +522,5 @@ export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2026-02-01"
+  lastUpdated: "2026-02-02"
 };

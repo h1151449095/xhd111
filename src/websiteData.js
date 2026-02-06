@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/2 11:06:08
+// 网站数据 - 通过管理后台更新于 2026/2/6 12:09:15
 
 // 站点配置
 export const siteConfig = {
@@ -88,10 +88,10 @@ export const websiteData = [
     "id": 1769885984039,
     "name": "blurpathproxy",
     "description": "",
-    "url": "blurpathproxy",
+    "url": "https://dashboard.blurpath.com/register?invitation_code=vciw02pucr",
     "category": "category_1769885618545",
     "tags": [],
-    "icon": "/assets/logo.png"
+    "icon": "https://icon.nbvil.com/favicon?url=dashboard.blurpath.com"
   },
   {
     "id": 1770001566871,
@@ -522,5 +522,5 @@ export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2026-02-02"
+  lastUpdated: "2026-02-06"
 };

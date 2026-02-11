@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/6 12:09:15
+// 网站数据 - 通过管理后台更新于 2026/2/11 15:50:22
 
 // 站点配置
 export const siteConfig = {
@@ -434,6 +434,15 @@ export const websiteData = [
     "category": "category_1769915499140",
     "tags": [],
     "icon": "https://icon.nbvil.com/favicon?url=itdog.cn"
+  },
+  {
+    "id": 1770796220155,
+    "name": "谷歌测速",
+    "description": "",
+    "url": "https://fiber.google.com/speedtest/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=fiber.google.com"
   }
 ];
 
@@ -522,5 +531,5 @@ export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2026-02-06"
+  lastUpdated: "2026-02-11"
 };

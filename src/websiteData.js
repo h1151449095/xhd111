@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/11 15:50:22
+// 网站数据 - 通过管理后台更新于 2026/2/11 15:50:50
 
 // 站点配置
 export const siteConfig = {
@@ -443,6 +443,15 @@ export const websiteData = [
     "category": "category_1769915499140",
     "tags": [],
     "icon": "https://icon.nbvil.com/favicon?url=fiber.google.com"
+  },
+  {
+    "id": 1770796248811,
+    "name": "测速speedtest",
+    "description": "",
+    "url": "https://www.speedtest.net/zh-Hans",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.speedtest.net"
   }
 ];
 

@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/11 15:50:50
+// 网站数据 - 通过管理后台更新于 2026/2/11 15:54:11
 
 // 站点配置
 export const siteConfig = {
@@ -334,7 +334,7 @@ export const websiteData = [
     "url": "https://dl.hostbuf.com/finalshell3/finalshell_windows_x64.exe",
     "category": "category_1769912685301",
     "tags": [],
-    "icon": "/assets/logo.png"
+    "icon": "https://icon.nbvil.com/favicon?url=dl.hostbuf.com"
   },
   {
     "id": 1769913390149,
@@ -406,7 +406,7 @@ export const websiteData = [
     "url": "https://ping0.cc/",
     "category": "category_1769915499140",
     "tags": [],
-    "icon": "/assets/logo.png"
+    "icon": "https://icon.nbvil.com/favicon?url=ping0.cc"
   },
   {
     "id": 1769915591697,
@@ -415,7 +415,7 @@ export const websiteData = [
     "url": "https://scamalytics.com/",
     "category": "category_1769915499140",
     "tags": [],
-    "icon": "/assets/logo.png"
+    "icon": "https://icon.nbvil.com/favicon?url=scamalytics.com"
   },
   {
     "id": 1769915607684,
@@ -433,7 +433,7 @@ export const websiteData = [
     "url": "https://www.itdog.cn/ping",
     "category": "category_1769915499140",
     "tags": [],
-    "icon": "https://icon.nbvil.com/favicon?url=itdog.cn"
+    "icon": "https://icon.nbvil.com/favicon?url=www.itdog.cn"
   },
   {
     "id": 1770796220155,

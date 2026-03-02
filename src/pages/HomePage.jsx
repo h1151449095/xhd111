@@ -1,8 +1,10 @@
 import { useState, useEffect, useRef } from 'react'
+import { createPortal } from 'react-dom'
 import { Search, Menu, X, Globe, ChevronDown, ChevronRight } from 'lucide-react'
 import { Button } from '../components/ui/button.jsx'
 import { Input } from '../components/ui/input.jsx'
 import WebsiteCard from '../components/WebsiteCard.jsx'
+import VpsInline from '../components/VpsInline.jsx'
 import SubmitWebsiteForm from '../components/SubmitWebsiteForm.jsx'
 import { websiteData, categories } from '../websiteData.js'
 import { useSiteConfig } from '../hooks/useSiteConfig.js'
@@ -15,6 +17,7 @@ function HomePage() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [expandedCategories, setExpandedCategories] = useState({})
   const [showSubmitForm, setShowSubmitForm] = useState(false)
+  const [showVps, setShowVps] = useState(false)
   const mainContentRef = useRef(null)
   const sectionRefs = useRef({})
   
@@ -241,6 +244,18 @@ function HomePage() {
                 </h3>
                 <div className="space-y-3">
                   <button 
+                    onClick={() => setShowVps(!showVps)}
+                    className={`flex items-center p-3 rounded-lg transition-colors group w-full ${showVps ? 'bg-purple-100 ring-2 ring-purple-400' : 'bg-gray-50 hover:bg-gray-100'}`}
+                  >
+                    <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center mr-3">
+                      <span className="text-purple-600 text-sm">⚡</span>
+                    </div>
+                    <div className="text-left">
+                      <div className={`text-sm font-medium ${showVps ? 'text-purple-600' : 'text-gray-900 group-hover:text-purple-600'}`}>VPS一键搭建</div>
+                      <div className="text-xs text-gray-500">VLESS / Shadowsocks</div>
+                    </div>
+                  </button>
+                  <button 
                     onClick={() => setShowSubmitForm(true)}
                     className="flex items-center p-3 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors group w-full"
                   >
@@ -255,22 +270,10 @@ function HomePage() {
                   
 
                   
-                  <a 
-                    href="https://github.com/your-username/binnav" 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center p-3 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors group"
-                  >
-                    <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center mr-3">
-                      <span className="text-orange-600 text-sm">ℹ️</span>
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium text-gray-900 group-hover:text-orange-600">关于导航</div>
-                      <div className="text-xs text-gray-500">网站介绍说明</div>
-                    </div>
-                  </a>
                 </div>
               </div>
+
+              {/* VPS 面板弹窗移到外层 */}
             </div>
           </aside>
 
@@ -368,6 +371,20 @@ function HomePage() {
         onClose={() => setShowSubmitForm(false)}
         categories={categories}
       />
+
+      {/* VPS 面板弹窗 - Portal 渲染到 body */}
+      {showVps && createPortal(
+        <div id="vps-modal-overlay" style={{position:'fixed',top:0,left:0,width:'100vw',height:'100vh',backgroundColor:'rgba(0,0,0,0.7)',backdropFilter:'blur(6px)',zIndex:999999,display:'flex',alignItems:'center',justifyContent:'center'}} onClick={(e) => { if (e.target.id === 'vps-modal-overlay') setShowVps(false) }}>
+          <div style={{backgroundColor:'white',borderRadius:'16px',width:'90%',maxWidth:'480px',maxHeight:'85vh',overflowY:'auto',boxShadow:'0 25px 50px rgba(0,0,0,0.4)'}}>
+            <div style={{position:'sticky',top:0,backgroundColor:'white',borderBottom:'1px solid #eee',borderRadius:'16px 16px 0 0',padding:'14px 18px',display:'flex',justifyContent:'space-between',alignItems:'center',zIndex:1}}>
+              <span style={{fontWeight:'bold',fontSize:'16px'}}>⚡ VPS 一键搭建</span>
+              <button onClick={() => setShowVps(false)} style={{width:'32px',height:'32px',display:'flex',alignItems:'center',justifyContent:'center',borderRadius:'50%',border:'none',cursor:'pointer',fontSize:'18px',color:'#999',backgroundColor:'#f5f5f5'}}>✕</button>
+            </div>
+            <VpsInline />
+          </div>
+        </div>,
+        document.body
+      )}
 
 
 

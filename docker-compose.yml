@@ -1,13 +1,15 @@
+version: '3.8'
+
 services:
   binnav:
-    image: node:20-slim
+    build: .
     container_name: binnav
-    working_dir: /app
     ports:
       - "5173:5173"
-    volumes:
-      - .:/app
     environment:
       - ADMIN_PASSWORD=AAssdd123
-    command: sh start.sh
-    restart: always
+    volumes:
+      - ./src/websiteData.js:/app/src/websiteData.js
+      - ./public/assets:/app/public/assets
+      - ./public/logos:/app/public/logos
+    restart: unless-stopped

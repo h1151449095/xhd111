@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/2/11 15:54:11
+// 网站数据 - 通过管理后台更新于 2026/3/2 15:24:57
 
 // 站点配置
 export const siteConfig = {
@@ -498,6 +498,13 @@ export const categories = [
     "icon": "/assets/Chat-2--Streamline-Kameleon__1_.png",
     "special": false,
     "subcategories": []
+  },
+  {
+    "id": "category_1772436296189",
+    "name": "会员专享",
+    "icon": "/assets/tech_blogger_avatar.png",
+    "special": false,
+    "subcategories": []
   }
 ];
 
@@ -540,5 +547,5 @@ export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2026-02-11"
+  lastUpdated: "2026-03-02"
 };

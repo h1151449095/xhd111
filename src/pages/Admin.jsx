@@ -430,6 +430,109 @@ function Admin() {
                 <div className="mt-6">
                   <VersionManager />
                 </div>
+
+                {/* 数据备份与恢复 */}
+                <div className="bg-white border border-gray-200 rounded-lg p-6 mt-6">
+                  <h4 className="text-base font-medium text-gray-900 mb-2">📦 数据备份与恢复</h4>
+                  <p className="text-sm text-gray-500 mb-4">备份全站数据（网站数据、分类配置），支持下载和恢复</p>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {/* 备份数据 */}
+                    <div className="border border-gray-200 rounded-lg p-4 hover:border-blue-300 transition-colors">
+                      <div className="text-center">
+                        <div className="text-3xl mb-2">💾</div>
+                        <h5 className="font-medium text-gray-900 mb-1">备份数据</h5>
+                        <p className="text-xs text-gray-500 mb-3">将全站数据备份为JSON文件</p>
+                        <button
+                          onClick={async () => {
+                            try {
+                              showMessage('正在备份...', 'info')
+                              const r = await fetch('/api/backup')
+                              const data = await r.json()
+                              if (data.success) {
+                                const blob = new Blob([JSON.stringify(data.backup, null, 2)], { type: 'application/json' })
+                                const url = URL.createObjectURL(blob)
+                                const a = document.createElement('a')
+                                a.href = url
+                                a.download = `binnav-backup-${new Date().toISOString().slice(0,10)}.json`
+                                a.click()
+                                URL.revokeObjectURL(url)
+                                showMessage('✅ 备份文件已下载！', 'success')
+                              } else {
+                                showMessage('❌ 备份失败: ' + data.message, 'error')
+                              }
+                            } catch (e) {
+                              showMessage('❌ 备份失败: ' + e.message, 'error')
+                            }
+                          }}
+                          className="w-full px-4 py-2 bg-blue-500 text-white text-sm font-medium rounded-lg hover:bg-blue-600 transition-colors"
+                        >
+                          📥 备份并下载
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* 恢复数据 */}
+                    <div className="border border-gray-200 rounded-lg p-4 hover:border-green-300 transition-colors">
+                      <div className="text-center">
+                        <div className="text-3xl mb-2">📂</div>
+                        <h5 className="font-medium text-gray-900 mb-1">恢复数据</h5>
+                        <p className="text-xs text-gray-500 mb-3">从备份文件恢复全站数据</p>
+                        <label className="w-full block px-4 py-2 bg-green-500 text-white text-sm font-medium rounded-lg hover:bg-green-600 transition-colors cursor-pointer">
+                          📤 选择备份文件
+                          <input
+                            type="file"
+                            accept=".json"
+                            className="hidden"
+                            onChange={async (e) => {
+                              const file = e.target.files[0]
+                              if (!file) return
+                              try {
+                                const text = await file.text()
+                                const backup = JSON.parse(text)
+                                if (!backup.websiteData) {
+                                  showMessage('❌ 无效的备份文件，缺少网站数据', 'error')
+                                  return
+                                }
+                                if (!confirm(`确认恢复备份？\n\n备份时间：${backup.timestamp || '未知'}\n\n⚠️ 当前数据将被覆盖（已自动保存旧数据）`)) return
+                                showMessage('正在恢复...', 'info')
+                                const r = await fetch('/api/restore', {
+                                  method: 'POST',
+                                  headers: { 'Content-Type': 'application/json' },
+                                  body: JSON.stringify({ backup })
+                                })
+                                const data = await r.json()
+                                if (data.success) {
+                                  showMessage('✅ ' + data.message, 'success')
+                                  setTimeout(() => window.location.reload(), 1500)
+                                } else {
+                                  showMessage('❌ 恢复失败: ' + data.message, 'error')
+                                }
+                              } catch (err) {
+                                showMessage('❌ 文件读取失败: ' + err.message, 'error')
+                              }
+                              e.target.value = ''
+                            }}
+                          />
+                        </label>
+                      </div>
+                    </div>
+
+                    {/* 备份说明 */}
+                    <div className="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                      <div className="text-center">
+                        <div className="text-3xl mb-2">📋</div>
+                        <h5 className="font-medium text-gray-900 mb-1">备份说明</h5>
+                        <ul className="text-xs text-gray-500 text-left space-y-1 mt-2">
+                          <li>• 备份包含所有网站和分类数据</li>
+                          <li>• 恢复前会自动保存当前数据</li>
+                          <li>• 建议定期备份重要数据</li>
+                          <li>• 备份文件为 JSON 格式</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
           </div>
         )}
         </div>

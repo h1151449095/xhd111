@@ -17,6 +17,11 @@ export default defineConfig({
       '/api': {
         target: 'http://localhost:3000',
         changeOrigin: true
+      },
+      '/vps-api': {
+        target: 'http://158.178.232.80:39217',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/vps-api/, '/api')
       }
     }
   },

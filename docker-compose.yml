@@ -1,0 +1,13 @@
+services:
+  binnav:
+    image: node:20-slim
+    container_name: binnav
+    working_dir: /app
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+    environment:
+      - ADMIN_PASSWORD=AAssdd123
+    command: sh start.sh
+    restart: always

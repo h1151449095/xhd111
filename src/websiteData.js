@@ -1,11 +1,11 @@
-// 网站数据 - 通过管理后台更新于 2025/7/8 21:45:45
+// 网站数据 - 通过管理后台更新于 2026/2/11 15:54:11
 
 // 站点配置
 export const siteConfig = {
-  "siteName": "BinNav",
-  "siteTitle": "BinNav - 导航",
+  "siteName": "软件网-不懂有问题找UP主",
+  "siteTitle": "软件网",
   "siteLogo": "/assets/logo.png",
-  "siteDescription": "二进制导航页面，精选优质站点",
+  "siteDescription": "推荐独享socks5住宅IP、住宅vps",
   "icpRecord": "",
   "publicSecurityRecord": "",
   "publicSecurityRecordUrl": ""
@@ -13,324 +13,532 @@ export const siteConfig = {
 
 export const websiteData = [
   {
-    "id": 1751807882512,
-    "name": "个人站点",
-    "description": "作者个人站点展示",
-    "url": "https://i.bincore.cn/",
-    "category": "author",
-    "tags": [
-      "个人站点"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=i.bincore.cn"
+    "id": 1769885785487,
+    "name": "全球代理proxy",
+    "description": "",
+    "url": "https://www.quanqiudaili.com/?ref=xNMDkn2845",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.quanqiudaili.com"
   },
   {
-    "id": 40,
-    "name": "Newbie Village",
-    "description": "二进制博客",
-    "url": "https://blog.nbvil.com/",
-    "category": "author",
-    "tags": [
-      "个人博客",
-      "教程分享",
-      "开发心得"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=blog.nbvil.com"
+    "id": 1769885804490,
+    "name": "985proxy",
+    "description": "",
+    "url": "https://www.985proxy.com/#/?invite=R9TGMB",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.985proxy.com"
   },
   {
-    "id": 1751813976438,
-    "name": "博主云盘",
-    "description": "分享教程涉及的工具及相关文档代码",
-    "url": "https://pan.nbvil.com/",
-    "category": "author",
-    "tags": [
-      "云盘"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=pan.nbvil.com"
+    "id": 1769885826455,
+    "name": "cliproxy",
+    "description": "",
+    "url": "https://share.cliproxy.com/share/ecrlzbv4b",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=cliproxy.com"
   },
   {
-    "id": 1751598590526,
-    "name": "YouTube频道",
-    "description": "作者YouTube频道，定期上传视频教程",
-    "url": "https://www.youtube.com/@nbvil.sindri",
-    "category": "author",
-    "tags": [
-      "视频"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=www.youtube.com"
+    "id": 1769885851000,
+    "name": "MIYAproxy不用中转",
+    "description": "不需要中转的住宅ip，8折扣码:newuser80",
+    "url": "https://www.miyaip.com/signup?invitecode=3654742",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.miyaip.com"
   },
   {
-    "id": 41,
-    "name": "GitHub Projects",
-    "description": "作者开源项目",
-    "url": "https://github.com/sindricn",
-    "category": "author",
-    "tags": [
-      "开源项目"
-    ],
+    "id": 1769885892021,
+    "name": "Onesproxy",
+    "description": "",
+    "url": "https://app.onesproxy.com/api/channel_agent/track?user_source=1&invite_code=VYL13427",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=app.onesproxy.com"
+  },
+  {
+    "id": 1769885907699,
+    "name": "IPdodo",
+    "description": "",
+    "url": "https://www.ipdodo.com/account/register?invite_code=9KC0MS45",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.ipdodo.com"
+  },
+  {
+    "id": 1769885928708,
+    "name": "ATT美国纯住宅ip",
+    "description": "",
+    "url": "https://www.vircs.com/welcome?vcd=1d272e68",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769885968073,
+    "name": "美国proxy",
+    "description": "",
+    "url": "https://www.proxystore.net/?ref=27898",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.proxystore.net"
+  },
+  {
+    "id": 1769885984039,
+    "name": "blurpathproxy",
+    "description": "",
+    "url": "https://dashboard.blurpath.com/register?invitation_code=vciw02pucr",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=dashboard.blurpath.com"
+  },
+  {
+    "id": 1770001566871,
+    "name": "机场网络",
+    "description": "",
+    "url": "https://bk.wjnba.eu.org/",
+    "category": "category_1769885618545",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=bk.wjnba.eu.org"
+  },
+  {
+    "id": 1769886107176,
+    "name": "推荐综合vps多",
+    "description": "月优惠码：WePCMON90   年优惠码：WePCYEAR80",
+    "url": "https://wepc.au/aff.php?aff=810",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=wepc.au"
+  },
+  {
+    "id": 1769886215411,
+    "name": "丽萨",
+    "description": "9折优惠码 TS-CBP205DQJE",
+    "url": "https://lisahost.com/aff.php?aff=2915",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=lisahost.com"
+  },
+  {
+    "id": 1769886244693,
+    "name": "便宜的美国vps",
+    "description": "",
+    "url": "https://www.acebgp.com/aff.php?aff=103",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.acebgp.com"
+  },
+  {
+    "id": 1769886280637,
+    "name": "ZOROcloud",
+    "description": "优惠码：ZORO",
+    "url": "https://my.zorocloud.com/aff.php?aff=356",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=my.zorocloud.com"
+  },
+  {
+    "id": 1769886305582,
+    "name": "阴雲",
+    "description": "",
+    "url": "https://www.yin-net.com/aff.php?aff=558",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.yin-net.com"
+  },
+  {
+    "id": 1769886327083,
+    "name": "EVOXT",
+    "description": "",
+    "url": "https://console.evoxt.com/aff.php?aff=200",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=console.evoxt.com"
+  },
+  {
+    "id": 1769886344869,
+    "name": "六六六云",
+    "description": "",
+    "url": "https://666clouds.com/aff.php?aff=2459",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=666clouds.com"
+  },
+  {
+    "id": 1769886366612,
+    "name": "CIUIC",
+    "description": "",
+    "url": "https://cloud.ciuic.com/aff/AAOLRAJU",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=cloud.ciuic.com"
+  },
+  {
+    "id": 1769886391932,
+    "name": "美国ATT纯住宅vps",
+    "description": "",
+    "url": "https://www.aaitr.com/aff.php?aff=90",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.aaitr.com"
+  },
+  {
+    "id": 1769886407961,
+    "name": "ATT纯住宅美国vps",
+    "description": "",
+    "url": "https://www.vircs.com/welcome?vcd=1d272e68",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "/assets/logo.png"
+  },
+  {
+    "id": 1769886432453,
+    "name": "Ipraft",
+    "description": "",
+    "url": "https://ipraft.com/?i78020e",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=ipraft.com"
+  },
+  {
+    "id": 1769886469142,
+    "name": "新区vps",
+    "description": "",
+    "url": "https://www.xinquyun.com/aff/WNZLIBFW",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.xinquyun.com"
+  },
+  {
+    "id": 1769886532498,
+    "name": "台湾住宅vps",
+    "description": "",
+    "url": "https://cloud.sudatech.store/aff.php?aff=104",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=cloud.sudatech.store"
+  },
+  {
+    "id": 1769886557919,
+    "name": "台湾vps",
+    "description": "",
+    "url": "https://zlidc.net/aff.php?aff=970",
+    "category": "category_1769885643033",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=zlidc.net"
+  },
+  {
+    "id": 1769912472201,
+    "name": "直播稳定中转巨推荐",
+    "description": "",
+    "url": "https://idc333.top/#register/KHKFZADUHI",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=idc333.top"
+  },
+  {
+    "id": 1769912494648,
+    "name": "中转一",
+    "description": "",
+    "url": "https://wepc.au/aff.php?aff=810",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=wepc.au"
+  },
+  {
+    "id": 1769912530323,
+    "name": "中转二",
+    "description": "不建议用不稳定",
+    "url": "https://nnr.moe?aff=14165",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=nnr.moe"
+  },
+  {
+    "id": 1769912556281,
+    "name": "中转三",
+    "description": "不建议用不稳定",
+    "url": "https://gorelay.net/#register/LODQENOOXD",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=gorelay.net"
+  },
+  {
+    "id": 1769912585837,
+    "name": "中转四",
+    "description": "IX规格适合短视频，其他适合直播,不会搭建别买",
+    "url": "https://www.mkcloud.net/aff.php?aff=316",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.mkcloud.net"
+  },
+  {
+    "id": 1769912622126,
+    "name": "中转vps",
+    "description": "不会搭建的别买",
+    "url": "https://my.niihost.com/aff.php?aff=193",
+    "category": "category_1769912444386",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=my.niihost.com"
+  },
+  {
+    "id": 1769912745862,
+    "name": "hubstudio指纹浏览器",
+    "description": "",
+    "url": "http://suo.im/aLOIU",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=suo.im"
+  },
+  {
+    "id": 1769913268723,
+    "name": "比特指纹浏览器",
+    "description": "10个免费窗口",
+    "url": "https://www.bitbrowser.cn/download",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.bitbrowser.cn"
+  },
+  {
+    "id": 1769913315659,
+    "name": "V2rayN-Win版本",
+    "description": "",
+    "url": "https://github.com/2dust/v2rayn/releases",
+    "category": "category_1769912685301",
+    "tags": [],
     "icon": "https://icon.nbvil.com/favicon?url=github.com"
   },
   {
-    "id": 1751596898467,
-    "name": "B站",
-    "description": "作者B站频道，不定期上传视频教程",
-    "url": "https://space.bilibili.com/3546865807133625",
-    "category": "author",
-    "tags": [
-      "视频"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=bilibili.com"
+    "id": 1769913332021,
+    "name": "V2rayU-Mac版本",
+    "description": "",
+    "url": "https://github.com/yanue/V2rayU/releases",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=github.com"
   },
   {
-    "id": 45,
-    "name": "知乎专栏",
-    "description": "二进制-知乎",
-    "url": "https://www.zhihu.com/people/mrblack-41-9",
-    "category": "author",
-    "tags": [
-      "知乎专栏",
-      "技术文章"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=www.zhihu.com"
+    "id": 1769913346401,
+    "name": "V2rayNG-安卓版本",
+    "description": "",
+    "url": "https://github.com/2dust/v2rayng/releases",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=github.com"
   },
   {
-    "id": 1751617129171,
-    "name": "Cloudflare",
-    "description": "Cloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。",
-    "url": "https://www.cloudflare.com/",
-    "category": "recommended",
-    "tags": [
-      "免费",
-      "网站",
-      "CDN",
-      "DDOS"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=www.cloudflare.com"
+    "id": 1769913373141,
+    "name": "ssh工具-win版本",
+    "description": "",
+    "url": "https://dl.hostbuf.com/finalshell3/finalshell_windows_x64.exe",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=dl.hostbuf.com"
   },
   {
-    "id": 1751811992820,
-    "name": "ChatGPT",
-    "description": "ChatGPT 是由 OpenAI 开发的先进语言模型，支持自然语言理解与生成。",
-    "url": "https://chatgpt.com/",
-    "category": "category_1751811714830",
-    "tags": [
-      "AI",
-      "对话"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=chatgpt.com"
+    "id": 1769913390149,
+    "name": "ssh工具-Mac版本",
+    "description": "",
+    "url": "https://dl.hostbuf.com/finalshell3/finalshell_macos_arm64.pkg",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=dl.hostbuf.com"
   },
   {
-    "id": 1751812061558,
-    "name": "DeepSeek",
-    "description": "DeepSeek 结合大规模语言模型与搜索能力，助您快速获取精准答案、洞察信息与生成内容。从复杂问题到创意灵感，一站式高效解决。",
-    "url": "https://www.deepseek.com/",
-    "category": "category_1751811714830",
-    "tags": [
-      "AI",
-      "对话"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=www.deepseek.com"
+    "id": 1769913449004,
+    "name": "UU远程",
+    "description": "",
+    "url": "https://uuyc.163.com/",
+    "category": "category_1769912685301",
+    "tags": [],
+    "icon": "/assets/logo.png"
   },
   {
-    "id": 1751813180037,
-    "name": "Grok",
-    "description": "xAI 出品的对话式助手，实时理解和生成信息。",
-    "url": "https://grok.com/",
-    "category": "category_1751811714830",
-    "tags": [
-      "AI",
-      "对话"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=grok.com"
+    "id": 1769915206944,
+    "name": "小火箭免费共享ID",
+    "description": "可用用来下载小火箭，只能用于苹果商店下载",
+    "url": "https://idshare001.me/goso.html",
+    "category": "category_1769915160413",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=idshare001.me"
   },
   {
-    "id": 1751812924193,
-    "name": "Agentment",
-    "description": "多智能体协作与自动化平台，解锁 AI 生产力。",
-    "url": "https://www.augmentcode.com/",
-    "category": "category_1751811752885",
-    "tags": [
-      "AI",
-      "工具",
-      "开发"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=www.augmentcode.com"
+    "id": 1769915236253,
+    "name": "苹果小火箭设置",
+    "description": "",
+    "url": "https://tp.wjnba.eu.org/file/1759610830063_苹果小火箭设置.mp4",
+    "category": "category_1769915160413",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=tp.wjnba.eu.org"
   },
   {
-    "id": 1751812223718,
-    "name": "Claude",
-    "description": "由 Anthropic 开发的先进AI助手，专为开发者打造，擅长代码生成、调试建议和技术问题解答",
-    "url": "https://claude.ai/login",
-    "category": "category_1751811752885",
-    "tags": [
-      "AI",
-      "工具",
-      "开发"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=claude.ai"
+    "id": 1769915252671,
+    "name": "小火箭中转教程",
+    "description": "",
+    "url": "https://tp.wjnba.eu.org/file/1761310387525_手机中转设置.mp4",
+    "category": "category_1769915160413",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=tp.wjnba.eu.org"
   },
   {
-    "id": 1751812327874,
-    "name": "Claude Code",
-    "description": "专为开发者设计的Claude版本，强化了代码编写、调试和技术文档生成能力",
-    "url": "https://www.anthropic.com/claude-code",
-    "category": "category_1751811752885",
-    "tags": [
-      "AI",
-      "工具",
-      "开发"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=www.anthropic.com"
+    "id": 1769915527024,
+    "name": "ipinfo",
+    "description": "",
+    "url": "https://ipinfo.io/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=ipinfo.io"
   },
   {
-    "id": 1751812429387,
-    "name": "Cursor",
-    "description": "Cursor 是为开发者打造的智能代码编辑器，深度集成大型语言模型，提供即时的代码生成、解释、调试和重构支持，让编程更高效、更流畅。",
-    "url": "https://cursor.com/cn",
-    "category": "category_1751811752885",
-    "tags": [
-      "AI",
-      "工具",
-      "开发"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=cursor.com"
+    "id": 1769915544765,
+    "name": "ip和纯净度检测",
+    "description": "",
+    "url": "https://www.ipipseek.com/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.ipipseek.com"
   },
   {
-    "id": 1751812786319,
-    "name": "Gemini Code Assist",
-    "description": "Google 出品的 AI 编程助手，助力高效代码开发。",
-    "url": "https://cloud.google.com/blog/ja/topics/developers-practitioners/gemini-code-assist?hl=ja",
-    "category": "category_1751811752885",
-    "tags": [
-      "AI",
-      "工具",
-      "开发"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=cloud.google.com"
+    "id": 1769915567689,
+    "name": "ping0",
+    "description": "",
+    "url": "https://ping0.cc/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=ping0.cc"
   },
   {
-    "id": 1751812826244,
-    "name": "Gemini CLI",
-    "description": "Gemini CLI，命令行中的智能开发与自动化工具。",
-    "url": "https://cloud.google.com/blog/ja/topics/developers-practitioners/introducing-gemini-cli?hl=ja",
-    "category": "category_1751811752885",
-    "tags": [
-      "AI",
-      "工具",
-      "开发"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=cloud.google.com"
+    "id": 1769915591697,
+    "name": "IP纯净度检测",
+    "description": "",
+    "url": "https://scamalytics.com/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=scamalytics.com"
   },
   {
-    "id": 33,
-    "name": "VS Code",
-    "description": "微软开发的代码编辑器",
-    "url": "https://code.visualstudio.com",
-    "category": "dev_tools",
-    "tags": [
-      "代码编辑器",
-      "开发工具",
-      "微软"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=code.visualstudio.com",
-    "popularity": 93
+    "id": 1769915607684,
+    "name": "whoer",
+    "description": "",
+    "url": "https://whoer.net/zh",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=whoer.net"
   },
   {
-    "id": 1751813442742,
-    "name": "Xshell",
-    "description": "功能强大的终端模拟器，安全高效管理远程服务器。",
-    "url": "https://www.xshell.com/",
-    "category": "dev_tools",
-    "tags": [
-      "SSH",
-      "开发"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=www.xshell.com"
+    "id": 1769915631237,
+    "name": "检测IP是否能用",
+    "description": "",
+    "url": "https://www.itdog.cn/ping",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.itdog.cn"
   },
   {
-    "id": 1751813515058,
-    "name": "Termius",
-    "description": "跨平台SSH客户端，随时随地安全管理服务器。",
-    "url": "https://termius.com/",
-    "category": "dev_tools",
-    "tags": [
-      "SSH",
-      "开发"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=termius.com"
+    "id": 1770796220155,
+    "name": "谷歌测速",
+    "description": "",
+    "url": "https://fiber.google.com/speedtest/",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=fiber.google.com"
   },
   {
-    "id": 1751807806262,
-    "name": "EdgeOne",
-    "description": "全球首个支持中国访问的免费CDN",
-    "url": "https://edgeone.ai/zh",
-    "category": "friend_links",
-    "tags": [
-      "网站",
-      "CDN"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=edgeone.ai"
+    "id": 1770796248811,
+    "name": "测速speedtest",
+    "description": "",
+    "url": "https://www.speedtest.net/zh-Hans",
+    "category": "category_1769915499140",
+    "tags": [],
+    "icon": "https://icon.nbvil.com/favicon?url=www.speedtest.net"
   }
 ];
 
 // 分类定义 - 支持二级分类
 export const categories = [
   {
-    "id": "author",
-    "name": "作者专栏",
-    "icon": "/assets/tech_blogger_avatar.png",
-    "special": true,
-    "subcategories": []
-  },
-  {
-    "id": "recommended",
-    "name": "常用推荐",
-    "icon": "/assets/star.png",
+    "id": "category_1769885618545",
+    "name": "socks5独享住宅ip",
+    "icon": "/assets/Gemini_Generated_Image_3rrfx23rrfx23rrf__1_-transformed.png",
     "special": false,
     "subcategories": []
   },
   {
-    "id": "category_1751807929795",
-    "name": "AI平台",
-    "icon": "/assets/ai.png",
+    "id": "category_1769885643033",
+    "name": "独享住宅vps推荐",
+    "icon": "/assets/Browser-Code.png",
     "special": false,
-    "subcategories": [
-      {
-        "id": "category_1751811714830",
-        "name": "AI Chat",
-        "icon": "/assets/Chat-2--Streamline-Kameleon__1_.png",
-        "special": false,
-        "subcategories": []
-      },
-      {
-        "id": "category_1751811752885",
-        "name": "AI Code",
-        "icon": "/assets/Browser-Code.png",
-        "special": false,
-        "subcategories": []
-      }
-    ]
+    "subcategories": []
   },
   {
-    "id": "dev_tools",
-    "name": "开发工具",
+    "id": "category_1769912444386",
+    "name": "中转推荐",
+    "icon": "/assets/server_icon.png",
+    "special": false,
+    "subcategories": []
+  },
+  {
+    "id": "category_1769912685301",
+    "name": "各类工具",
     "icon": "/assets/Xcode--Streamline-Svg-Logos.png",
     "special": false,
     "subcategories": []
   },
   {
-    "id": "friend_links",
-    "name": "友情链接",
-    "icon": "/assets/link.png",
+    "id": "category_1769915160413",
+    "name": "小火箭免费ID账号、小火箭教程",
+    "icon": "/assets/innovation_icon.png",
+    "special": false,
+    "subcategories": []
+  },
+  {
+    "id": "category_1769915499140",
+    "name": "IP检测、网络测速",
+    "icon": "/assets/Chat-2--Streamline-Kameleon__1_.png",
     "special": false,
     "subcategories": []
   }
 ];
 
+// 搜索引擎配置
+export const searchEngines = [
+  { id: "bing", name: "必应", url: "https://www.bing.com/search?q=", color: "bg-blue-600" },
+  { id: "baidu", name: "百度", url: "https://www.baidu.com/s?wd=", color: "bg-red-600" },
+  { id: "google", name: "谷歌", url: "https://www.google.com/search?q=", color: "bg-green-600" },
+  { id: "internal", name: "站内搜索", url: "", color: "bg-purple-600" }
+];
+
+// 推荐内容配置
+export const recommendations = [
+  {
+    id: 1,
+    title: "阿里云",
+    description: "点击领取2000元限量云产品优惠券",
+    url: "https://aliyun.com",
+    type: "sponsor",
+    color: "from-blue-50 to-blue-100"
+  },
+  {
+    id: 2,
+    title: "设计资源",
+    description: "高质量设计素材网站推荐",
+    url: "#design_resources",
+    type: "internal",
+    color: "from-green-50 to-green-100"
+  }
+];
+
+// 热门标签
+export const popularTags = [
+  "设计工具", "免费素材", "UI设计", "前端开发", "图标库", "配色方案",
+  "设计灵感", "原型工具", "代码托管", "学习平台", "社区论坛", "创业资讯"
+];
 
 // 网站统计信息
 export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2025-07-08"
+  lastUpdated: "2026-02-11"
 };

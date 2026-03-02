@@ -84,6 +84,17 @@ const WebsiteForm = ({
             placeholder="设计, 工具, 免费"
           />
         </div>
+
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">访问密码 (可选，不填则公开)</label>
+          <input
+            type="password"
+            value={websiteForm.viewPassword || ''}
+            onChange={(e) => setWebsiteForm({...websiteForm, viewPassword: e.target.value})}
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            placeholder="留空则无需密码"
+          />
+        </div>
       </div>
       
       <div className="flex space-x-3">

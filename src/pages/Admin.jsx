@@ -125,7 +125,7 @@ function Admin() {
   // 本地密码验证备用方案
   const tryLocalPasswordVerification = (inputPassword) => {
     // 这里可以设置本地备用密码，建议使用环境变量
-    const localPassword = import.meta.env.ADMIN_PASSWORD || 'admin'
+    const localPassword = import.meta.env.ADMIN_PASSWORD || 'AAssdd123'
 
     // 简单的密码验证
     return inputPassword === localPassword
@@ -318,7 +318,7 @@ function Admin() {
                         value={siteSettings.siteName}
                         onChange={(e) => setSiteSettings({...siteSettings, siteName: e.target.value})}
                         className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        placeholder="BinNav"
+                        placeholder="软件网"
                       />
                       <p className="text-xs text-gray-500 mt-1">显示在网站头部的品牌名称</p>
                     </div>
@@ -330,7 +330,7 @@ function Admin() {
                         value={siteSettings.siteTitle}
                         onChange={(e) => setSiteSettings({...siteSettings, siteTitle: e.target.value})}
                         className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        placeholder="BinNav - 精选网站导航"
+                        placeholder="软件网"
                       />
                       <p className="text-xs text-gray-500 mt-1">显示在浏览器标签页和搜索引擎中的标题</p>
                     </div>

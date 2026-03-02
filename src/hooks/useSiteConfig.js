@@ -3,8 +3,8 @@ import { siteConfig as initialSiteConfig } from '../websiteData.js'
 
 // 默认站点配置
 const defaultSiteConfig = {
-  siteName: 'BinNav',
-  siteTitle: 'BinNav - 精选网站导航',
+  siteName: '软件网',
+  siteTitle: '软件网',
   siteLogo: '/assets/logo.png',
   siteDescription: '发现优质网站，提升工作效率。汇聚设计、开发、工具等各类精选网站资源。',
   // 备案信息配置
